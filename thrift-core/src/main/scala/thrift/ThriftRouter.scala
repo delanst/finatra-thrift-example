@@ -2,7 +2,7 @@ package thrift
 
 import java.util.concurrent.Executors
 
-import be.sdtechnologies.thrift.{Company, Employee}
+import com.sample.employee.thriftscala.{Company, Employee}
 import com.google.inject.Inject
 import com.twitter.util.{FuturePool, Future => TwitterFuture}
 import core.{CompanyService, EmployeeService}

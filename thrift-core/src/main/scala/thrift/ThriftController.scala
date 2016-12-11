@@ -1,8 +1,8 @@
 package thrift
 
 import com.twitter.finatra.thrift.Controller
-import be.sdtechnologies.thrift.EmployeeService
-import be.sdtechnologies.thrift.EmployeeService.{AllCompanies, AllEmployees, FindCompany, FindEmployee}
+import com.sample.employee.thriftscala.EmployeeService
+import com.sample.employee.thriftscala.EmployeeService.{AllCompanies, AllEmployees, FindCompany, FindEmployee}
 import com.google.inject.Inject
 
 class ThriftController @Inject() (thriftRouter: ThriftRouter) extends Controller
