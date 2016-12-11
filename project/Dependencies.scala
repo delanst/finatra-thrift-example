@@ -35,10 +35,7 @@ object Dependencies {
   val finatraDependencies = Seq(
     "com.twitter" %% "finatra-thrift" % versions.finatra,
     "com.twitter" %% "inject-thrift-client-http-mapper" % versions.finatra,
-    "com.twitter" %% "inject-slf4j" % versions.finatra,
-
-    "com.github.xiaodongw" %% "swagger-finatra" % versions.swagger exclude("com.twitter", "finatra-http"),
-    "com.jason-goodwin" %% "authentikat-jwt" % versions.jwt
+    "com.twitter" %% "inject-slf4j" % versions.finatra
   )
 
   val thriftClientDependency = Seq(
